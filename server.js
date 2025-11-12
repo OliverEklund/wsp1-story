@@ -2,6 +2,7 @@ import express from "express"
 import nunjucks from "nunjucks"
 import morgan from "morgan"
 import indexRouter from "./routes/index.js"
+import storyRouter from "./routes/story.js"
 import fs from "fs"
 
 const app = express()
@@ -14,6 +15,7 @@ nunjucks.configure("views", {
 })
 
 app.use("/", indexRouter)
+app.use("/", storyRouter)
 
 
 app.listen(3000, () => {
