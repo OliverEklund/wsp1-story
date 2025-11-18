@@ -1,0 +1,21 @@
+{
+    "movies": [
+        {
+            "id": 1,
+            "titel": "test",
+            "description": "hallå?",
+            "choices": [
+                {
+                "target_id": 2,
+                "beskrivning": "Forsätt att leta efter grunken."
+                },
+                {
+                "target_id": 3,
+                "beskrivning": "Fundera på grunken"
+                }
+            ]
+            }
+
+
+    ]
+}

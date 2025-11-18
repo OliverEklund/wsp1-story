@@ -9,12 +9,4 @@ router.get("/", (req, res) => {
     })
 })
 
-router.get("/", (req, res) => {
-    res.render("story.njk", {
-        title: "Här börjar ditt soloäventyr",
-        message: "Det kommer vara val i detta soloäventyr du gör genom att trycka på knappar."
-    })
-})
-
-
 export default router

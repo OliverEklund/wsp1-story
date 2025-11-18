@@ -15,7 +15,7 @@ nunjucks.configure("views", {
 })
 
 app.use("/", indexRouter)
-app.use("/", storyRouter)
+app.use("/story", storyRouter)
 
 
 app.listen(3000, () => {

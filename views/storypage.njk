@@ -4,7 +4,7 @@
     <h1>{{title}}</h1>
     <p>{{message}}</p>
     <ul>
-        {% for choice in choices %}
+        {% for choice in page.choices %}
             <li><a href="/story/{{choice.targetId}}">{{choice.description}}</a></li>
         {% else %}
             <li>Det finns inget val</li>
