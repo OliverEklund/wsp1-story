@@ -1,31 +1,438 @@
 [
     {
-        "id": 1,
-        "message":"wow",
-
-        "choice": [
-            {
-                "targetId": 2,
-                "description": "Forsätt att leta efter grunken."
-            },
-            {
-                "targetId": 3,
-                "description": "Fundera på grunken"
-            }
-        ]
+    "id": 1,
+    "message": "Du vaknar till ryckande rörelser när vagnen skakar över den sönderbrända marken. Dina handleder värker av repen. Runt dig: Bastionens höga murar, byggda av plåt, betong och rost. Vakterna håller avstånd, kastar blickar fulla av rädsla. De har hört historier om dig—om din helarkraft, om dina ritualer. Framför vagnen rider Tristan, ärrad, stel, men när hans ögon möter dina stannar han till som om något i luften förändras. Snart kommer du att överlämnas till Marke, mannen som kräver dig som sin brud. Du känner den giftiga vinden sticka mot huden och försöker samla dina tankar.",
+    "choices": [
+        {
+        "targetId": 2,
+        "description": "Studera Tristan och försöka förstå honom."
+        },
+        {
+        "targetId": 3,
+        "description": "Försöka prata med vakterna."
+        },
+        {
+        "targetId": 4,
+        "description": "Sluta ögonen och bevara din styrka."
+        }
+    ]
     },
     {
         "id": 2,
-        "message":"supercoooolsmfshfuienfuwegiuphoiuiesjkfdlhvekvbstrynilvkjfghlaugnrnkyeamvnfgeiuhnufgeamlkcjöfivamnhlsldjöflnhvkölrejhsnbemcvjkvymrljkvöfvsjehgunsmifksjhrgnmkcjfaehgnavlöjipinlwmö",
-        "choice": [
-            {
-                "targetId": 2,
-                "description": "Forsätt att leta efter grunken."
-            },
-            {
-                "targetId": 3,
-                "description": "Fundera på grunken"
-            }
+        "message": "Du låter blicken möta hans. Det är som om han ser mer än bara fånge eller fiende. Din kropp spänns av oväntad nyfikenhet och rädsla. Han nickar kort och sänker rösten.",
+        "choices": [
+        {
+            "targetId": 5,
+            "description": "Fråga honom varför han ser på dig så."
+        },
+        {
+            "targetId": 6,
+            "description": "Håll tyst, låtsas oberörd."
+        }
         ]
-    }
+    },
+    {
+        "id": 3,
+        "message": "Du försöker tala med vakterna. De mumlar om Markes vrede och om din ‘särskilda kraft’. Du märker hur deras händer slinter mot vapenremmarna.",
+        "choices": [
+        {
+            "targetId": 6,
+            "description": "Fortsätt prata, kanske kan du lugna dem."
+        },
+        {
+            "targetId": 7,
+            "description": "Tystna och koncentrera dig på att överleva vägen."
+        }
+        ]
+    },
+    {
+        "id": 4,
+        "message": "Du stänger ögonen och låter vinden slicka ansiktet. Radioaktiv dimma far över ödemarken, en påminnelse om varför världen är så brutal.",
+        "choices": [
+        {
+            "targetId": 6,
+            "description": "Fokusera på att känna marken och din egen styrka."
+        },
+        {
+            "targetId": 8,
+            "description": "Försök visualisera flyktvägar om något går fel."
+        }
+        ]
+    },
+    {
+        "id": 5,
+        "message": "Du frågar Tristan varför han ser på dig så. Han tvekar men svarar: 'Det är inte bara dig jag ser… utan vad du kan förändra.' Orden är gåtfulla, men de får ditt hjärta att slå snabbare.",
+        "choices": [
+        {
+            "targetId": 9,
+            "description": "Tala öppet om din kraft."
+        },
+        {
+            "targetId": 6,
+            "description": "Håll hemligheten för dig själv."
+        }
+        ]
+    },
+    {
+        "id": 6,
+        "message": "Du säger inget. Tristan rider vidare, men hans närvaro känns som en skugga som följer dig. Varje rörelse han gör väcker nyfikenhet och oro samtidigt.",
+        "choices": [
+        {
+            "targetId": 8,
+            "description": "Observera vägen framåt och möjliga faror."
+        },
+        {
+            "targetId": 10,
+            "description": "Fokusera på dina egna tankar och känslor."
+        }
+        ]
+    },
+    {
+        "id": 7,
+        "message": "Du tystnar och lägger märke till hur landskapet runt bastionen förändras. Ruiner, giftiga dammoln och avspärrningar skapar både fälla och skydd.",
+        "choices": [
+        {
+            "targetId": 8,
+            "description": "Planera möjliga flyktvägar."
+        },
+        {
+            "targetId": 10,
+            "description": "Acceptera situationen, håll dig i bakgrunden."
+        }
+        ]
+    },
+    {
+        "id": 8,
+        "message": "Du visualiserar alla vägar, vilka som leder till överlevnad, vilka som är dödsfällor. Varje val känns livsviktigt. Ditt hjärta bultar i takt med radion i luften.",
+        "choices": [
+        {
+            "targetId": 9,
+            "description": "Försök använda din ryktekraft för att påverka Tristan."
+        },
+        {
+            "targetId": 10,
+            "description": "Spara kraften, vänta och se vad som händer."
+        }
+        ]
+    },
+    {
+        "id": 9,
+        "message": "Du delar delar av din krafts hemlighet med Tristan. Han nickar med respekt och försiktighet. Nu finns ett band, men också risken att Marke får veta och straffet blir hårt.",
+        "choices": [
+        {
+            "targetId": 10,
+            "description": "Fortsätt närma dig honom och bygg förtroende."
+        },
+        {
+            "targetId": 7,
+            "description": "Dra dig tillbaka och spela farlig, oberörd."
+        }
+        ]
+    },
+    {
+        "id": 10,
+        "message": "Solens sista strålar glimmar över de förstörda murarna. Bastionen är en plats för makt, för rykten, och för dolda känslor. Du vet att allt snart förändras – ett val, en handling, kan bestämma både ditt och Tristans öde.",
+        "choices": [
+        {
+            "targetId": 11,
+            "description": "Möt Tristan igen och testa banden mellan er."
+        },
+        {
+            "targetId": 3,
+            "description": "Försök manipulera vakterna för att vinna tid."
+        },
+        {
+            "targetId": 12,
+            "description": "Planera flyktvägen, oavsett Tristan."
+        }
+        ]
+    },
+    {
+    "id": 11,
+    "message": "Tristan lutar sig nära och viskar att han kan hjälpa dig, men endast om du litar på honom helt. Du känner osäkerhet, men hans ord är lockande som en varm eld i den kalla ödemarken.",
+    "choices": [
+      {
+        "targetId": 12,
+        "description": "Acceptera hans hjälp och berätta mer om dina krafter."
+      },
+      {
+        "targetId": 13,
+        "description": "Avvisa honom, lita bara på dig själv."
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "message": "Ni smider en plan för att undvika Markes vakter och kanske fly Bastionen. Du känner en blandning av spänning och rädsla, men Tristan verkar orubblig.",
+    "choices": [
+      {
+        "targetId": 14,
+        "description": "Föreslå en riskfylld rutt genom den radioaktiva zonen."
+      },
+      {
+        "targetId": 15,
+        "description": "Välj en längre, säkrare väg men med fler vakter."
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "message": "Du drar dig tillbaka, håller din kraft hemlig och försöker förstå Bastionens rutiner på egen hand. Tristan ser på dig från avstånd, men du ignorerar honom. Du vet att du måste vara försiktig.",
+    "choices": [
+      {
+        "targetId": 16,
+        "description": "Smid en egen flyktplan utan Tristans hjälp."
+      },
+      {
+        "targetId": 14,
+        "description": "I hemlighet observera Tristan för möjliga allianser."
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "message": "Ni går in i den radioaktiva dimman. Luften bränner i lungorna, marken glöder under er vikt. Du känner din kraft vibrera, nästan som om den vill skydda er båda.",
+    "choices": [
+      {
+        "targetId": 17,
+        "description": "Lita på kraften och led Tristan genom dimman."
+      },
+      {
+        "targetId": 18,
+        "description": "Håll dig försiktig, minimera exponeringen."
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "message": "Ni tar den längre vägen och stöter snart på ett patrullband. Marken är överallt och vakterna rör sig som vargar som känner bloddoften. Tristan drar sitt svärd, men ni måste välja hur ni ska agera.",
+    "choices": [
+      {
+        "targetId": 19,
+        "description": "Konfrontera vakterna direkt."
+      },
+      {
+        "targetId": 18,
+        "description": "Försök smyga förbi obemärkt."
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "message": "Du smyger genom Bastionens korridorer, utan Tristans hjälp. Ryktena om din kraft får vakterna att tveka, men varje steg är en chansning. Ditt hjärta bultar av både spänning och skräck.",
+    "choices": [
+      {
+        "targetId": 18,
+        "description": "Försök nå en säker plats utanför murarna."
+      },
+      {
+        "targetId": 12,
+        "description": "Ge upp ensamheten och gå med Tristan i hans plan."
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "message": "Din kraft pulserar, nästan som om den lever själv. Tristan följer dig blindt genom dimman, och du känner en ny samhörighet med honom. För första gången på länge känns världen mindre fientlig.",
+    "choices": [
+      {
+        "targetId": 20,
+        "description": "Fortsätt djupare in i den okända zonen."
+      },
+      {
+        "targetId": 15,
+        "description": "Avbryt och ta den säkrare rutten runt dimman."
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "message": "Ni rör er försiktigt, steg för steg. Varje ljud, varje skugga kan vara ett hot. Din kraft är fortfarande dämpad, men du känner att den vakar över dig. Tristan kastar ibland en blick, och du märker något mjukt bakom hans hårda fasad.",
+    "choices": [
+      {
+        "targetId": 20,
+        "description": "Ta nästa steg tillsammans, trots faran."
+      },
+      {
+        "targetId": 15,
+        "description": "Ändra riktning för att undvika patruller."
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "message": "Vakterna upptäcker er. Svärden klingar mot metall. Du använder din helarkraft för att lindra Tristans skador och fördröja fienden. Pulsen rusar, rädslan bränner och du inser hur mycket du redan litar på honom.",
+    "choices": [
+      {
+        "targetId": 20,
+        "description": "Fly efter striden, tillsammans."
+      },
+      {
+        "targetId": 18,
+        "description": "Dölj dig i skuggorna och se om vakterna ger upp."
+      }
+    ]
+  },
+  { 
+    "id": 20,
+    "message": "Ni når en utsiktspunkt över den förstörda världen. Marken nedanför glöder svagt, dimman rör sig som levande spöken. Tristan ser på dig med respekt och något som liknar ömhet. Du känner kraften inom dig, men också det band som växt mellan er. Snart kommer Markes beslut, och världen runt Bastionen kommer aldrig vara densamma.",
+    "choices": [
+      {
+        "targetId": 12,
+        "description": "Smida nästa plan tillsammans."
+      },
+      {
+        "targetId": 16,
+        "description": "Försök gå din egen väg, utan honom."
+      },
+      {
+        "targetId": 14,
+        "description": "Vandra in i dimman igen och lita helt på din kraft."
+      }
+      ]
+    },
+    {
+    "id": 21,
+    "message": "Morgonen gryr och ryktet sprider sig snabbt: Marke har fått veta om din och Tristans plan. Hans vakter patrullerar tätare, hans ögon är överallt. Du känner hur trycket ökar, och Tristan verkar beredd på konfrontation.",
+    "choices": [
+      {
+        "targetId": 22,
+        "description": "Konfrontera Tristan och diskutera nästa drag."
+      },
+      {
+        "targetId": 23,
+        "description": "Håll dig gömd och observera Markes rörelser."
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "message": "Tristan nickar när du berättar vad du sett. Ni planerar nu en sista chans: antingen smita ut genom Bastionens underjordiska tunnlar eller lura vakterna till den radioaktiva zonen.",
+    "choices": [
+      {
+        "targetId": 24,
+        "description": "Välj tunnlarna, risk för fällor men snabb flykt."
+      },
+      {
+        "targetId": 25,
+        "description": "Välj dimzonen, riskabelt men ger chans att oskadliggöra vakterna."
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "message": "Du ser Markes vakter röra sig taktiskt, hans blick sveper över området. Tristan närmar sig försiktigt och viskar att han kan hjälpa dig. Du måste välja om du litar på honom.",
+    "choices": [
+      {
+        "targetId": 22,
+        "description": "Förena krafter med Tristan och planera tillsammans."
+      },
+      {
+        "targetId": 24,
+        "description": "Fortsätt ensam och ta tunnlarna."
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "message": "Ni kryper genom trånga tunnlar, rostig metall skär mot huden. Marken ovan dig rör sig ibland av vakter som patrullerar. Ditt hjärta slår hårt, men Tristan är vid din sida, och ni rör er som skuggor.",
+    "choices": [
+      {
+        "targetId": 26,
+        "description": "Snabba steg framåt, tunneln kan kollapsa när som helst."
+      },
+      {
+        "targetId": 27,
+        "description": "Hitta en liten sidokammare och vila, riskerar upptäckt."
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "message": "Ni går in i dimman. Strålningen svider, men den döljer er för vakterna. Muterade djur rör sig i skuggorna och varje steg är riskfyllt. Tristan följer dig, beroende av din kraft.",
+    "choices": [
+      {
+        "targetId": 28,
+        "description": "Driv djuren bort med din kraft och gå vidare."
+      },
+      {
+        "targetId": 29,
+        "description": "Rör er försiktigt, låt farorna passera."
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "message": "Jord och metall rasar ner. Ni duckar och kämpar för att inte bli begravda. Tristan tar tag i din arm och drar dig mot säkerhet, men ni vet att tiden håller på att rinna ut.",
+    "choices": [
+      {
+        "targetId": 30,
+        "description": "Fortsätt framåt mot ljuset, det avgör era öden."
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "message": "Ni gömmer er i sidokammaren. Dimman utanför tunneln gör att vakterna tvekar, men ljudet av rasande mark och metall oroar er. Tristan lägger handen på din axel och ger dig styrka.",
+    "choices": [
+      {
+        "targetId": 30,
+        "description": "Bryt er ut ur tunneln och möt världen igen."
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "message": "Du använder din ryktekraft för att skrämma bort mutanterna. Dimman svajar runt er som levande skuggor, och Tristan ler tacksamt. Ni är fria för stunden, men bastionen ligger fortfarande bakom er.",
+    "choices": [
+      {
+        "targetId": 30,
+        "description": "Fortsätt mot säkerheten bortom dimman."
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "message": "Ni smyger mellan farorna i dimman. Varje ljud är en risk, varje felsteg kan avslöja er. Tristan håller din hand kort, och för ett ögonblick känns världen mindre skrämmande.",
+    "choices": [
+      {
+        "targetId": 30,
+        "description": "Tänk framåt och gör sista rycket mot friheten."
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "message": "Ni står på kanten av Bastionens värld, ödet väntar. Dimman, ruinerna och Markes makt bakom er. Nu är valet ert: hur ska ni avsluta denna flykt och ert band?",
+    "choices": [
+      {
+        "targetId": 31,
+        "description": "Konfrontera Marke och störta honom – ett blodigt men rättfärdigt slut."
+      },
+      {
+        "targetId": 32,
+        "description": "Fly ensam med Tristan genom ödemarken – ett hoppfullt, men osäkert slut."
+      },
+      {
+        "targetId": 33,
+        "description": "Tristan lämnar dig bakom för att rädda Bastionen – ett tragiskt slut."
+      }
+    ]
+  },
+    {
+    "id": 31,
+    "message": "Ni stormar Bastionen. Tristan och du rör er som skuggor genom ruiner och korridorer. Marke står i sitt torn, kall och rasande. Svärd klingar mot metall, och dimman av rök och damm virvlar runt er. Till slut faller Marke – inte utan kostnad. Ni är fria, men Bastionen är trasig, och många har fallit. Du och Tristan står tillsammans, blodiga men levande, och blickar ut över en värld som ni nu kan forma själva.",
+    "choices": []
+  },
+  {
+    "id": 32,
+    "message": "Ni tar er bort från Bastionen genom den radioaktiva dimman och ruinerna. Dimman svider, men ni håller varandras händer och rör er framåt, steg för steg. Marken och vakterna finns bakom er, men just nu är ni fria. Framtiden är osäker, men ni har varandra. Hoppet lever, trots världen som fortfarande är farlig och karg.",
+    "choices": []
+  },
+  {
+    "id": 33,
+    "message": "Tristan tvekar inför att lämna Bastionen i ruinerna. Han ser på dig med sorg i ögonen och säger att han måste stanna för att skydda andra, även om det betyder att ni aldrig ses igen. Du ser honom försvinna bland murarna. Ensam går du vidare genom dimman och ruinerna, med en blandning av smärta och styrka. Din kraft och ditt mod är kvar, men hjärtat bär en evig längtan efter honom.",
+    "choices": []
+  }
+
 ]
